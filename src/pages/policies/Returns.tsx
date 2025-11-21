@@ -15,9 +15,16 @@ const Returns = () => {
             <div className="flex items-start gap-3">
               <Shield className="w-6 h-6 text-primary shrink-0 mt-1" />
               <div className="text-sm leading-relaxed">
-                <p className="font-semibold mb-2">ZHEJIANG FABRIC COMPANY LIMITED</p>
-                <p>Business Registration Certificate No. 77224617-000-10-24-2</p>
-                <p>Registered Address: 8/F., China Hong Kong Tower, 8–12 Hennessy Road, Wan Chai, Hong Kong</p>
+                <p className="font-semibold mb-2">
+                  ZHEJIANG FABRIC COMPANY LIMITED
+                </p>
+                <p>
+                  Business Registration Certificate No. 77224617-000-10-24-2
+                </p>
+                <p>
+                  Registered Address: 8/F., China Hong Kong Tower, 8–12 Hennessy
+                  Road, Wan Chai, Hong Kong
+                </p>
                 <p>Valid 24 October 2024 to 23 October 2025</p>
               </div>
             </div>
@@ -30,8 +37,9 @@ const Returns = () => {
                 <h2 className="text-3xl font-bold">30-Day Return Policy</h2>
               </div>
               <p className="text-muted-foreground">
-                We want you to be completely satisfied with your purchase. If you're not happy with your order, 
-                you may return most items within 30 days of delivery for a full refund or exchange.
+                We want you to be completely satisfied with your purchase. If
+                you're not happy with your order, you may return most items
+                within 30 days of delivery for a full refund or exchange.
               </p>
             </div>
 
@@ -43,7 +51,9 @@ const Returns = () => {
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Items must be unused, unworn, and in original condition</span>
+                  <span>
+                    Items must be unused, unworn, and in original condition
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
@@ -55,7 +65,10 @@ const Returns = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Technology products must include all accessories and documentation</span>
+                  <span>
+                    Technology products must include all accessories and
+                    documentation
+                  </span>
                 </li>
               </ul>
             </div>
@@ -91,29 +104,32 @@ const Returns = () => {
                 <li className="flex items-start gap-3">
                   <span className="font-bold text-primary">1.</span>
                   <div>
-                    <strong>Initiate Return:</strong> Contact us at info@zjfabric-global.com with your order 
-                    number and reason for return.
+                    <strong>Initiate Return:</strong> Contact us at
+                    info@zjfabric-global.com with your order number and reason
+                    for return.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold text-primary">2.</span>
                   <div>
-                    <strong>Receive Authorization:</strong> We'll provide a return authorization number and 
-                    shipping instructions.
+                    <strong>Receive Authorization:</strong> We'll provide a
+                    return authorization number and shipping instructions.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold text-primary">3.</span>
                   <div>
-                    <strong>Pack & Ship:</strong> Securely package the item(s) with all original materials 
-                    and ship to the provided address.
+                    <strong>Pack & Ship:</strong> Securely package the item(s)
+                    with all original materials and ship to the provided
+                    address.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold text-primary">4.</span>
                   <div>
-                    <strong>Receive Refund:</strong> Once we receive and inspect your return, we'll process 
-                    your refund within 5-10 business days.
+                    <strong>Receive Refund:</strong> Once we receive and inspect
+                    your return, we'll process your refund within 5-10 business
+                    days.
                   </div>
                 </li>
               </ol>
@@ -125,17 +141,27 @@ const Returns = () => {
                 Return shipping costs depend on the reason for return:
               </p>
               <ul className="space-y-2 text-muted-foreground">
-                <li><strong>Our Error or Defect:</strong> We cover return shipping costs</li>
-                <li><strong>Change of Mind:</strong> Customer responsible for return shipping</li>
-                <li><strong>International Returns:</strong> Customer responsible for all customs and duties</li>
+                <li>
+                  <strong>Our Error or Defect:</strong> We cover return shipping
+                  costs
+                </li>
+                <li>
+                  <strong>Change of Mind:</strong> Customer responsible for
+                  return shipping
+                </li>
+                <li>
+                  <strong>International Returns:</strong> Customer responsible
+                  for all customs and duties
+                </li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-3xl font-bold mb-4">Exchanges</h2>
               <p className="text-muted-foreground">
-                To exchange an item for a different size, color, or product, please return the original item 
-                and place a new order for the desired item. This ensures fastest processing.
+                To exchange an item for a different size, color, or product,
+                please return the original item and place a new order for the
+                desired item. This ensures fastest processing.
               </p>
             </div>
 

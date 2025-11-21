@@ -23,8 +23,60 @@ import { Badge } from "@/components/ui/badge";
 import Layout from "@/components/Layout";
 import heroFashion from "@/assets/hero-fashion.jpg";
 import heroTech from "@/assets/hero-tech.jpg";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import { cn } from "@/lib/utils";
+import { productCatalog, type Product } from "@/data/products";
+
+type CategoryAccent = {
+  gradient: string;
+  badge: string;
+  chip: string;
+};
+
+const categoryAccents: Record<string, CategoryAccent> = {
+  "Men's Fashion": {
+    gradient:
+      "bg-gradient-to-br from-blue-500/50 via-indigo-400/30 to-cyan-400/10",
+    badge: "bg-blue-500/20 text-blue-50 border-blue-300/40",
+    chip: "border-blue-400/30 bg-blue-500/5",
+  },
+  "Women's Fashion": {
+    gradient:
+      "bg-gradient-to-br from-pink-500/40 via-rose-400/20 to-amber-300/10",
+    badge: "bg-pink-500/15 text-pink-50 border-rose-200/40",
+    chip: "border-pink-400/30 bg-pink-500/5",
+  },
+  Technology: {
+    gradient:
+      "bg-gradient-to-br from-cyan-500/40 via-purple-500/20 to-lime-300/10",
+    badge: "bg-cyan-500/20 text-cyan-50 border-purple-200/40",
+    chip: "border-cyan-400/30 bg-cyan-500/5",
+  },
+  default: {
+    gradient: "bg-gradient-to-br from-primary/40 via-accent/30 to-transparent",
+    badge: "bg-primary/15 text-primary-foreground border-primary/30",
+    chip: "border-primary/30 bg-primary/5",
+  },
+};
+
+const deriveHighlights = (product: Product) => {
+  const baseHighlights = [
+    product.shortDescription,
+    product.category.includes("Fashion")
+      ? "Artisan fabrication"
+      : "Precision-grade hardware",
+    product.isNew ? "Limited capsule" : "Core archive",
+    product.onSale ? "Signature pricing window" : "Concierge support",
+  ];
+
+  return baseHighlights;
+};
+
+const primaryCategoryOrder: string[] = [
+  "Men's Fashion",
+  "Women's Fashion",
+  "Technology",
+];
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -57,42 +109,68 @@ const Index = () => {
     };
   }, []);
 
-  const newArrivals = [
-    {
-      id: "1",
-      name: "Premium Cotton T-Shirt",
-      price: 49.99,
-      image:
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=1000&fit=crop",
-      category: "Fashion - Men",
-      badge: "New" as const,
-    },
-    {
-      id: "2",
-      name: "Wireless Earbuds Pro",
-      price: 149.99,
-      image:
-        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&h=1000&fit=crop",
-      category: "Technology - Audio",
-      badge: "New" as const,
-    },
-    {
-      id: "3",
-      name: "Leather Crossbody Bag",
-      price: 129.99,
-      image:
-        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=1000&fit=crop",
-      category: "Fashion - Accessories",
-    },
-    {
-      id: "4",
-      name: "Smart Watch Series 6",
-      price: 399.99,
-      image:
-        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&h=1000&fit=crop",
-      category: "Technology - Wearables",
-    },
-  ];
+  const newArrivals = useMemo(() => {
+    const groupedByCategory = productCatalog.reduce<Record<string, Product[]>>(
+      (acc, product) => {
+        if (!acc[product.category]) {
+          acc[product.category] = [];
+        }
+        acc[product.category].push(product);
+        return acc;
+      },
+      {}
+    );
+
+    const picks: Product[] = [];
+
+    primaryCategoryOrder.forEach((category) => {
+      const pool = groupedByCategory[category];
+      if (!pool || pool.length === 0) {
+        return;
+      }
+      const preferred = pool.find((item) => item.isNew) ?? pool[0];
+      if (preferred) {
+        picks.push(preferred);
+      }
+    });
+
+    if (picks.length < 4) {
+      const remainingProducts = productCatalog.filter(
+        (product) =>
+          !picks.some((picked) => picked.id === product.id) && product.isNew
+      );
+      picks.push(...remainingProducts.slice(0, 4 - picks.length));
+    }
+
+    if (picks.length < 4) {
+      const fallbackProducts = productCatalog.filter(
+        (product) => !picks.some((picked) => picked.id === product.id)
+      );
+      picks.push(...fallbackProducts.slice(0, 4 - picks.length));
+    }
+
+    return picks.slice(0, 4).map((product, index) => {
+      const accent =
+        categoryAccents[product.category] ?? categoryAccents.default;
+
+      return {
+        id: product.id,
+        name: product.name,
+        image: product.image,
+        hoverImage: product.hoverImage,
+        category: product.category,
+        badge: product.isNew
+          ? ("New" as const)
+          : product.onSale
+          ? ("Sale" as const)
+          : undefined,
+        accent,
+        highlights: deriveHighlights(product),
+        meta: product.shortDescription,
+        sequence: `Spectrum ${String(index + 1).padStart(2, "0")}`,
+      };
+    });
+  }, []);
 
   const stats = [
     { icon: Users, value: "50K+", label: "Happy Customers" },
@@ -665,17 +743,29 @@ const Index = () => {
                 <div
                   className="absolute inset-0 opacity-80"
                   style={{
-                    backgroundImage: `url(${newArrivals[0].image})`,
+                    backgroundImage: `url(${
+                      newArrivals[0].hoverImage ?? newArrivals[0].image
+                    })`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black via-black/70 to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-transparent to-accent/40 mix-blend-screen opacity-60" />
+                <div
+                  className={cn(
+                    "absolute inset-0 mix-blend-screen opacity-60",
+                    newArrivals[0].accent.gradient
+                  )}
+                />
 
                 <div className="relative z-10 p-8 lg:p-10 flex flex-col gap-6 h-full">
                   <div className="flex items-center justify-between">
-                    <Badge className="bg-white/15 text-white border-white/20 backdrop-blur px-3 py-1">
+                    <Badge
+                      className={cn(
+                        "backdrop-blur px-3 py-1 border",
+                        newArrivals[0].accent.badge
+                      )}
+                    >
                       {newArrivals[0].category}
                     </Badge>
                     {newArrivals[0].badge && (
@@ -685,19 +775,16 @@ const Index = () => {
                     )}
                   </div>
                   <div>
-                    <p className="text-sm text-white/70">Spectrum 01</p>
+                    <p className="text-sm text-white/70">
+                      {newArrivals[0].sequence}
+                    </p>
                     <h3 className="text-4xl font-black text-white mt-2 leading-tight">
                       {newArrivals[0].name}
                     </h3>
                   </div>
                   <div className="mt-auto space-y-4">
                     <div className="grid grid-cols-2 gap-3 text-white/80 text-sm">
-                      {[
-                        "Manifest drop",
-                        "Artisan stitched",
-                        "Near-zero latency hardware",
-                        "Priority concierge",
-                      ].map((meta) => (
+                      {newArrivals[0].highlights.map((meta) => (
                         <div
                           key={meta}
                           className="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 backdrop-blur hover:border-white/40 transition-colors"
@@ -745,7 +832,12 @@ const Index = () => {
 
                     <div className="relative z-10 p-6 flex flex-col gap-4 h-full">
                       <div className="flex items-center justify-between">
-                        <Badge className="bg-white/15 text-white border-white/20 backdrop-blur px-3 py-1">
+                        <Badge
+                          className={cn(
+                            "backdrop-blur px-3 py-1 border",
+                            product.accent.badge
+                          )}
+                        >
                           {product.category}
                         </Badge>
                         <span className="text-xs uppercase tracking-[0.35em] text-white/70">
@@ -756,8 +848,8 @@ const Index = () => {
                         <h3 className="text-2xl font-black text-white leading-tight">
                           {product.name}
                         </h3>
-                        <p className="text-sm text-white/60 mt-1">
-                          Limited capsule
+                        <p className="text-sm text-white/60 mt-1 line-clamp-2">
+                          {product.meta}
                         </p>
                       </div>
                       <div className="mt-auto flex items-center justify-between border-t border-white/10 pt-4">
@@ -786,17 +878,29 @@ const Index = () => {
                 {newArrivals.map((product, index) => (
                   <div
                     key={product.id}
-                    className="min-w-[220px] rounded-2xl border border-primary/25 bg-primary/5 px-4 py-3 backdrop-blur hover:border-primary/50 transition-colors"
+                    className={cn(
+                      "min-w-[240px] rounded-3xl border border-white/15 px-5 py-4 shadow-lg shadow-black/40 transition-all hover:-translate-y-1 hover:border-primary/50",
+                      "bg-gradient-to-br from-[#0f172a]/95 via-[#111827]/90 to-[#1e1b4b]/85 flex flex-col gap-2"
+                    )}
                   >
-                    <p className="text-xs uppercase tracking-[0.4em] text-primary/80">
-                      Drop {index + 1}
-                    </p>
-                    <p className="text-sm font-semibold text-primary mt-2">
-                      {product.name}
-                    </p>
-                    <p className="text-[11px] text-primary/70">
-                      {product.category}
-                    </p>
+                    <div className="flex items-center justify-between text-xs uppercase tracking-[0.4em] text-white/80">
+                      <span>Drop {index + 1}</span>
+                      <span className="text-primary/70">
+                        {product.sequence}
+                      </span>
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-white line-clamp-1">
+                        {product.name}
+                      </p>
+                      <p className="text-[11px] text-white/80 line-clamp-2">
+                        {product.meta}
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-2 text-[11px] text-white/80">
+                      <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                      <span>{product.category}</span>
+                    </div>
                   </div>
                 ))}
               </div>

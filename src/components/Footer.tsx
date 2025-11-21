@@ -1,3 +1,4 @@
+import { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import {
   Mail,
@@ -12,6 +13,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { useToast } from "@/hooks/use-toast";
 
 const navColumns = [
   {
@@ -44,6 +46,45 @@ const socialLinks = [
 ];
 
 const Footer = () => {
+  const { toast } = useToast();
+  const [subscriberEmail, setSubscriberEmail] = useState("");
+
+  const handleInvalidField = useCallback(
+    (event: React.FormEvent<HTMLInputElement>) => {
+      event.currentTarget.setCustomValidity("Please enter your email address.");
+    },
+    []
+  );
+
+  const handleInputField = useCallback(
+    (event: React.FormEvent<HTMLInputElement>) => {
+      event.currentTarget.setCustomValidity("");
+    },
+    []
+  );
+
+  const handleSubscribe = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const isValidEmail = /^\S+@\S+\.\S+$/.test(subscriberEmail.trim());
+    if (!isValidEmail) {
+      toast({
+        title: "Please enter a valid email",
+        description:
+          "We use your email to send release alerts and compliance updates.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    toast({
+      title: "Subscribed to drop alerts",
+      description:
+        "Expect capsule releases and compliance updates in your inbox.",
+    });
+    setSubscriberEmail("");
+  };
+
   return (
     <footer className="relative overflow-hidden bg-background mt-32 border-t border-primary/10">
       <div className="absolute inset-0 pointer-events-none">
@@ -75,7 +116,7 @@ const Footer = () => {
                 8/F., China Hong Kong Tower, 8–12 Hennessy Road, Wan Chai, Hong
                 Kong
               </p>
-              <p>Valid 24 October 2024 – 23 October 2025</p>
+              <p>Valid 24 October 2024</p>
             </div>
           </div>
         </div>
@@ -99,8 +140,8 @@ const Footer = () => {
             <div className="flex flex-col gap-3 text-sm text-muted-foreground">
               {[
                 { icon: MapPin, text: "8/F., China Hong Kong Tower, Wan Chai" },
-                { icon: Mail, text: "info@zjfabric-global.com" },
-                { icon: PhoneCall, text: "+852 0000 0000" },
+                { icon: Mail, text: "info@zhejiangtextilecompanylimited.com" },
+                { icon: PhoneCall, text: "+44 7365 570 610" },
               ].map(({ icon: Icon, text }) => (
                 <div key={text} className="inline-flex items-center gap-3">
                   <Icon className="w-4 h-4 text-primary" />
@@ -158,13 +199,21 @@ const Footer = () => {
                 atelier events.
               </p>
             </div>
-            <form className="space-y-3">
+            <form className="space-y-3" onSubmit={handleSubscribe}>
               <Input
                 type="email"
                 placeholder="Email address"
                 className="bg-background/60 border border-primary/20"
+                value={subscriberEmail}
+                onChange={(event) => setSubscriberEmail(event.target.value)}
+                required
+                onInvalid={handleInvalidField}
+                onInput={handleInputField}
               />
-              <Button className="w-full bg-primary hover:bg-primary/90">
+              <Button
+                type="submit"
+                className="w-full bg-primary hover:bg-primary/90"
+              >
                 Subscribe
               </Button>
             </form>
