@@ -250,6 +250,210 @@ export const productCatalog: Product[] = [
     onSale: true,
     salePrice: 23
   },
+  {
+    id: "men-012",
+    name: "Auron Relaxed Oxford Shirt",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/H3815eb0e1ec640289060e740516b98c55.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H2474e9e3d80b482b9104acae5c07b688w.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hdc21b7cbc7954e8bacf429be35ef2092X.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hc9dcf31145ec4dedb674f85a8009a774F.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H299838a6eb37430eb1a65dc3be35b30fG.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H0d41c66db8144c7ab2ff0fc8af3b4480n.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Classic oxford shirt with a relaxed everyday fit.",
+    fullDescription:
+      "Auron Oxford Shirt features soft-woven cotton, a clean collar structure, and a comfortable fit for versatile daily wear.",
+    rating: 4.7,
+    isNew: true,
+    price: 32,
+    onSale: false
+},
+{
+    id: "men-013",
+    name: "Mavrin Regular-fit Polo Tee",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/H576936a499164a04a67cc3036cab61d4Y.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H9d9054acc6024f77bbf470ffa220e7a1Y.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hf76d25c08c1d4e719e5f6d48e1874a67M.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H3fa4f6896cb04d619e29a35aebc596ebO.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Ha2466f7c4bd04a3d94398aa671c62076s.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hc7639988b6084be4a08441740b5ad77fF.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Soft-knit polo tee with structured collar.",
+    fullDescription:
+      "Mavrin Polo delivers breathable knit comfort and a polished look, ideal for semi-casual and weekend outfits.",
+    rating: 4.6,
+    isNew: true,
+    price: 21,
+    onSale: true,
+    salePrice: 17
+},
+{
+    id: "men-014",
+    name: "NordicTrail Lightweight Windbreaker",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/He2f0732cd5c8475ba39e97e486c7e8f0m.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/Hfbdcda32e3044c00b5f2e936d33f6c2bi.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hfca96d6e924a4474875bea9ab436539bx.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H778df8202c424affa39d05d51ce11f4aZ.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H4fd7529d6e124315b9ecbef9fcd5b7e5M.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H565871e0089d47f89ffaf87bbd6261dao.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Ultralight windbreaker for outdoor and daily use.",
+    fullDescription:
+      "NordicTrail Windbreaker features water-resistant fabric and adjustable hem, ideal for morning runs and light travel.",
+    rating: 4.7,
+    isNew: true,
+    price: 41,
+    onSale: false
+},
+{
+    id: "men-015",
+    name: "UrbanStep Minimal Joggers",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/Heef4d429d7e44a0ebff8a7003eb8a84e8.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/Hd8a5953724d64933bcf0f86ac37682eft.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/H6bffb5f42e744770a0c84eea31f73f40R.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H68fbef90695c4dc68c3146d3725d8ffc8.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hbfd471d9a63e43d7920fc673fd00622cg.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Soft tapered-fit joggers with stretch comfort.",
+    fullDescription:
+      "UrbanStep Joggers are crafted with flexible cotton blend fabric, offering comfortable mobility for everyday wear.",
+    rating: 4.6,
+    isNew: true,
+    price: 25,
+    onSale: false
+},
+{
+    id: "men-016",
+    name: "Verano Breathable Summer Shirt",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/Ha6301ac93a814121bee996c3d851b73cH.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/He6375d4bb6084b9abf2a9bcb982352abV.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/H410ddcfc7f064d8f8f04c99a2ada5b36A.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H683dc7f349e048a2bc8d5e0597bb4c83a.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H767c88059bed43f2a4a36b89c8d1645et.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hde3af1cf7fdb42e68304a614220e05e96.jpg?avif=close&webp=close"
+    ],
+    shortDescription:
+      "Light short-sleeve shirt with breathable woven fabric.",
+    fullDescription:
+      "Verano Shirt provides cool airflow and a relaxed fit, perfect for warm seasons and casual outings.",
+    rating: 4.7,
+    isNew: true,
+    price: 23,
+    onSale: true,
+    salePrice: 19
+},
+{
+    id: "men-017",
+    name: "Linea Everyday Casual Tee",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/Adad8386fb7d242cd9dfee043f98516a3Y.png?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/Aa5ebff188cdf4fff8a0522a341a1711fH.png?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/A16292a0195b241b2b050ba9e77fb8578s.png?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Ad5beec3ffa5c41e98ab69dbb779d66c5k.png?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/A89c51be98d7e47118d682a0108ac47a6C.png?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Aa95b0ec86ecc463c8d1662c634e0e3f1Y.png?avif=close&webp=close"
+    ],
+    shortDescription: "Basic cotton tee with soft-touch texture.",
+    fullDescription:
+      "Linea Tee provides a gentle cotton feel and regular fit, making it a versatile essential for any wardrobe.",
+    rating: 4.8,
+    isNew: true,
+    price: 15,
+    onSale: false
+},
+{
+    id: "men-018",
+    name: "RuggedCore Utility Vest",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/H5d9bafab3a4541debfb6e49223f58e36X.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H0ead6680341e4aa3b31717eec617e12d2.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hb5adafaad40d4ab4836763e9fb0a3726c.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H25259d9b0af8417294c9a053f656d604j.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hb58f95323643419483cae36a1af6eff6p.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Functional utility vest with multi-pocket design.",
+    fullDescription:
+      "RuggedCore Vest includes secure pockets, lightweight fabric, and a structured build ideal for daily activities or layering.",
+    rating: 4.6,
+    isNew: true,
+    price: 33,
+    onSale: true,
+    salePrice: 27
+},
+{
+    id: "men-019",
+    name: "Cliffside Casual Denim Jacket",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/H8e517cbc84c840d29a3b0f3c5e535129a.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/Hc6a025beb90847a681a349806153bd7fr.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/H43076bca20f3465092a2371003ef4bd6z.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H4cffbef117944588b998074254f867baF.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H19500dfcf16b4bb38c0bb5faffcae42bA.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hb19978871ba94127a92c802013a41a0b0.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Casual denim jacket with classic stitching.",
+    fullDescription:
+      "Cliffside Jacket features midweight denim, reinforced seams, and a comfortable cut for everyday layering.",
+    rating: 4.7,
+    isNew: true,
+    price: 45,
+    onSale: false
+},
+{
+    id: "men-020",
+    name: "Marxton Essential Knit Hoodie",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/A789932e3fbd84507b7f1656e1659dbcdV.png?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/Ad528099e8d8b45f7afc66b754fa335a0c.png?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Af77c3d9f262d4d228aeec45b59875988Y.png?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/A52c44ad6a7d44beca51650af574354ebC.png?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Ae5e66f36bd164811826049d1fb8f0e2fv.png?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Aaddd54f443c745a29a54b344b3efc05fA.png?avif=close&webp=close"
+    ],
+    shortDescription: "Soft knit hoodie with everyday comfort.",
+    fullDescription:
+      "Marxton Hoodie combines warm knit texture with a relaxed silhouette for daily casual wear.",
+    rating: 4.8,
+    isNew: true,
+    price: 31,
+    onSale: true,
+    salePrice: 25
+},
+{
+    id: "men-021",
+    name: "Everset Straight Fit Casual Pants",
+    category: "Men's Fashion",
+    image: "https://s.alicdn.com/@sc04/kf/Hd86056b0b18b4ac7af562358df6575b7X.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H6b047f97e2254ac2b391ee0d23bd84bf1.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hc8042ec2f6fb493ab1a4e1a510c91827Q.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H6b14bd529432498383e99769d036f922R.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H979053bd3f78433fb25077077bc6d5cb7.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hc428e1316d854148a391332a2d4f05beC.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Straight-fit cotton pants built for comfort.",
+    fullDescription:
+      "Everset Pants feature smooth cotton fabric, reinforced seams, and a regular fit suitable for daily wear.",
+    rating: 4.7,
+    isNew: true,
+    price: 27,
+    onSale: false
+},
+
   
   
   {
@@ -509,6 +713,107 @@ export const productCatalog: Product[] = [
     onSale: true,
     salePrice: 26
 },
+{
+  id: "women-012",
+  name: "Marin Soft Knit Pullover",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Haae95e5cb50043d5884d0839a0b64a46d.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H9466d8cdd4ef404ababcbddf6d5bcdd3d.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H688c8c8adba54a9e96c842d611a09e2aE.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H64e52fdc8e654c5ba8ffec9da9bfb3ebZ.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H5b7866aba762401195042ea2b42918eaV.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H9aa8eefcae394cb3b97efc1599c2746dq.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Soft-knit pullover with a relaxed everyday fit.",
+  fullDescription:
+    "The Marin Pullover offers gentle texture, light warmth, and a clean silhouette suitable for daily layering.",
+  rating: 4.7,
+  isNew: true,
+  price: 28,
+  onSale: false
+},
+{
+  id: "women-013",
+  name: "Solyn Flow Midi Skirt",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H8b38edd46c114e3c8d214f9a3202fe01T.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H8e9e76f1e60b4405a41b45da1e622b1eU.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H1eff16a17570458cbb90107eb19582afl.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb7ae3ac8405142dfaff0d54546ff51f5C.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb7ae3ac8405142dfaff0d54546ff51f5C.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Flowy midi skirt with soft drape and movement.",
+  fullDescription:
+    "The Solyn Skirt features lightweight woven fabric, gentle pleats, and an easy elastic waistband for all-day comfort.",
+  rating: 4.6,
+  isNew: true,
+  price: 24,
+  onSale: false
+},
+{
+  id: "women-014",
+  name: "Aurette Crew Neck Tee",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H0389931fdcee45ca844d73dc1558f36a8.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H8416ec4a3ba1458e9ad9f0b8a747ba6at.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H687c5a73531a42938514afa7e9aa61d7t.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H267ca236c9ce401ca9347cd91b7eaa2co.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H10a84f59a8564effb4cec72efef1cc30d.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H9d54b3bf39f54a47a754abc9fc7d5f1cV.png?avif=close&webp=close"
+  ],
+  shortDescription: "Everyday crew-neck tee with soft-touch cotton.",
+  fullDescription:
+    "Aurette Tee delivers a smooth cotton feel, balanced structure, and a regular fit ideal for everyday styling.",
+  rating: 4.8,
+  isNew: true,
+  price: 17,
+  onSale: true,
+  salePrice: 13
+},
+{
+  id: "women-015",
+  name: "Elovina Lightweight Cardigan",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H5ef8ebfbe7404e24b2bb3558f298bef6t.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hefda044e294540aabe97196a123d721f4.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H69d686823acf43e994a557e5d1faeb95r.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hd85748dd43e347d5ab952f4638dba951V.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H8d581688f51f400888545ea2e916dac8k.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H735d381e4c62403b911a80b872306877m.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Light cardigan designed for soft layering.",
+  fullDescription:
+    "Elovina Cardigan provides a loose drape, soft knit feel, and simple styling that pairs well with dresses, skirts, or denim.",
+  rating: 4.7,
+  isNew: true,
+  price: 29,
+  onSale: false
+},
+{
+  id: "women-016",
+  name: "Lorene Pleated Casual Dress",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H9a09fe23961f405dae9e2afcf0f2b558Y.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H4ebaee8da406469097e77be30c0fb1e3t.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H9643b287f4cf4e47bccb48329b35635bq.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Had5846a4cf374c59ab4f70e067a6a6bcK.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H08549f487b5d453ca8c9129797c6debcY.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Pleated casual dress with gentle movement.",
+  fullDescription:
+    "The Lorene Dress brings soft fabric, subtle pleats, and an easy silhouette perfect for relaxed everyday wear.",
+  rating: 4.8,
+  isNew: true,
+  price: 34,
+  onSale: true,
+  salePrice: 28
+},
+
 
   
   {
@@ -741,7 +1046,110 @@ export const productCatalog: Product[] = [
     price: 59,
     onSale: true,
     salePrice: 49
+  },
+  {
+    id: "tech-012",
+    name: "MiniTrack Smart GPS Tag",
+    category: "Technology",
+    image: "https://s.alicdn.com/@sc04/kf/H08f14a567e634637aaa097c13f909efbz.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H251c3fceb0ee40d6ad69b97a2b8551f1r.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hdf89f233119f4899806d5cdb89cfa736Q.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H8da7c4409a41462fb983f7eb57bfa00eT.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H08fc20ea467747339d811e0330de3052O.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H505b82889fe64222a218af9dbba63c60a.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Portable GPS tag for tracking keys, bags, and devices.",
+    fullDescription:
+      "MiniTrack uses low-power connectivity to help locate personal items with app-based tracking, alerts, and smart proximity detection.",
+    rating: 4.6,
+    isNew: true,
+    price: 18,
+    onSale: false
+  },
+  {
+    id: "tech-013",
+    name: "AirFlow Compact Desk Fan",
+    category: "Technology",
+    image: "https://s.alicdn.com/@sc04/kf/Hf4f930ba10004ab8b2290c7b4a0db201A.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H19b664e24ef84eb2984cc67cfc84b065y.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Hda501a164e594e208a754b9f92fabd1d0.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H3ddc68d6a9324f5aa436aea50a4816942.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H11f896a4a571464a97f9711e64efa1a4M.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H4bce3c93710b4e39abb31d1cd228f551V.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "USB-powered portable fan for desks and workspaces.",
+    fullDescription:
+      "AirFlow Fan offers adjustable speed, quiet operation, and a compact design ideal for home offices and study tables.",
+    rating: 4.7,
+    isNew: true,
+    price: 16,
+    onSale: true,
+    salePrice: 13
+  },
+  {
+    id: "tech-014",
+    name: "LumoLite Rechargeable LED Cube",
+    category: "Technology",
+    image: "https://s.alicdn.com/@sc04/kf/Hf4b005ec89aa463581fcc305bc81d6255.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H9858b59472804b4c8617a05cb78cf6a1F.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/H9f9fc1258ec748f9bf7c4466bb3242ff9.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hc0f811b057524bb4a1c2b338e7ce6dc4C.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H90f517df4e334acbb609fd4bc5951e564.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H8793261fca3f4f0cbf65c48a9d597643K.png?avif=close&webp=close"
+    ],
+    shortDescription: "Mini LED cube lamp with warm and cool modes.",
+    fullDescription:
+      "LumoLite delivers ambient lighting with adjustable brightness, USB charging support, and a compact design suitable for bedrooms or desktops.",
+    rating: 4.8,
+    isNew: true,
+    price: 22,
+    onSale: false
+  },
+  {
+    id: "tech-015",
+    name: "CleanJet Keyboard Air Blower",
+    category: "Technology",
+    image: "https://s.alicdn.com/@sc04/kf/Hfa917d42ce5c4e5ba8d6931e44c3ac5ax.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/H9d953595901c42bd980a676265c561b4n.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/H9d1e3fbf03274eddbb903b78621decc1a.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Ha6ac58c986034ee582b09458c4f2c4806.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H591bc9bb716644e28baf6bed1584e654l.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H4a6bd8cbd83f471b8664fb1ef3c0f4fd8.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Portable air blower designed for keyboard cleaning.",
+    fullDescription:
+      "CleanJet uses a focused airflow nozzle and rechargeable battery to remove dust from keyboards, cameras, and small electronics.",
+    rating: 4.7,
+    isNew: true,
+    price: 26,
+    onSale: true,
+    salePrice: 21
+  },
+  {
+    id: "tech-016",
+    name: "DeskBuddy Magnetic Cable Hub",
+    category: "Technology",
+    image: "https://s.alicdn.com/@sc04/kf/H86a2fdfdf50e47e3928aebcdf1b4c3efP.jpg?avif=close&webp=close",
+    hoverImage: "https://s.alicdn.com/@sc04/kf/Hd38905fc9a254ca0b6fc96e288d0fc0d7.jpg?avif=close&webp=close",
+    imageGallery: [
+      "https://s.alicdn.com/@sc04/kf/Ha80d1c1fc8db40bf934f57ea89e4946cO.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/Hef7108f73d034dc8a2cbfd4f50374aa7B.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H26cbda71744d465d80095f47036057eb1.jpg?avif=close&webp=close",
+      "https://s.alicdn.com/@sc04/kf/H3b7593550e004d61b57074458c52c670z.jpg?avif=close&webp=close"
+    ],
+    shortDescription: "Magnetic cable organizer for desks and work areas.",
+    fullDescription:
+      "DeskBuddy keeps charging cables neatly arranged with magnetic anchors and a silicone base that fits any workspace setup.",
+    rating: 4.8,
+    isNew: true,
+    price: 14,
+    onSale: false
   }
+  
   
 ];
 
