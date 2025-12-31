@@ -453,6 +453,415 @@ export const productCatalog: Product[] = [
     price: 27,
     onSale: false
 },
+{
+  id: "men-022",
+  name: "TerraFlex Cargo Pants",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H403c11a99a1c4ba48f526d401aec034aW.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H97df202f7fb743c8b5df653324b7d656C.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hf0e227a57945498aac22153e94c6290fR.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H6fe18c43542d4d6cac8ce87ced23029c6.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H882524770b4c4cc098e1678508204493Q.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H658985257cca4c98be746afd93fc62dev.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Durable cargo pants with multiple utility pockets.",
+  fullDescription:
+    "TerraFlex Cargo Pants feature reinforced stitching, adjustable waist, and spacious pockets for everyday functionality and comfort.",
+  rating: 4.6,
+  isNew: true,
+  price: 38,
+  onSale: true,
+  salePrice: 32
+},
+{
+  id: "men-023",
+  name: "FlintStone Flannel Shirt",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Aaec83c157b1844ebbf7b7e41e3ff2596L.jpeg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Ac87009fd0e844b28a3e66454fa73d340n.jpeg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/A85bcec27e23142d991b20a7688ddcf9aQ.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A11b0832d8999478bb9c842d4443c928cJ.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A8f86a21f2d044667a1fdacccd6f63b4e9.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A098a8190dfc14185a40f3d50541b7e87L.jpeg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic flannel shirt with soft brushed texture.",
+  fullDescription:
+    "FlintStone Flannel offers a cozy feel with a relaxed fit, perfect for layering during cooler seasons or casual weekend wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 31,
+  onSale: false
+},
+{
+  id: "men-024",
+  name: "ApexTrack Athletic Pants",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H618517338aec4ff5be5dd4fdf9ac9eb9q.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H353be80dd5794763867b2f43c9d02479v.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Ha1e3990e731e441292d4f1e5e1a87074Z.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H3b673a921631461b83d433df26fda64eo.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4e5187e7775a4a82bc0791ef90691a63F.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H1c146923ef344008b68b3089ea9627d2e.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Performance track pants with moisture-wicking fabric.",
+  fullDescription:
+    "ApexTrack Pants combine flexibility and breathability, ideal for workouts, running, or active daily routines.",
+  rating: 4.6,
+  isNew: true,
+  price: 28,
+  onSale: true,
+  salePrice: 24
+},
+{
+  id: "men-025",
+  name: "BoltLine Henley Long Sleeve",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Sef38d3772f3248afac8e4b42ac6caae4v.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/A252569dc92494e67a20f93a8398a551aj.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/U7c500c8245ca4ed98d38eb41e0ddfe35Q.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/U781ad9b49883484aa12f0fb82536f9b4D.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/U0c39f00184d749aebb320f833478a8d5Z.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/U81039e854d6b42c89b5418437380aa11X.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Comfortable henley shirt with button placket.",
+  fullDescription:
+    "BoltLine Henley features soft cotton blend fabric with a relaxed fit, perfect for casual everyday wear.",
+  rating: 4.5,
+  isNew: true,
+  price: 26,
+  onSale: false
+},
+{
+  id: "men-026",
+  name: "StormGuard Bomber Jacket",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/A258ec5ee9fa542caa4233be44afbacb4t.jpeg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/A365f1d9c9ecd4ed099ad490c788934bck.jpeg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/A5535727122c049aba899157d52023fd6i.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ab0dbde7c4e7d4643bfc7decd097cbe67Y.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ad4fd8e4a96284f21a92a3587eee96ea2e.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A135017d7cbec4c35bcfb5ea31082ee12H.jpeg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic bomber jacket with ribbed cuffs and hem.",
+  fullDescription:
+    "StormGuard Bomber offers a timeless silhouette with lightweight insulation, perfect for transitional weather and casual styling.",
+  rating: 4.7,
+  isNew: true,
+  price: 52,
+  onSale: true,
+  salePrice: 45
+},
+{
+  id: "men-027",
+  name: "CoreFit Tank Top",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H3c8e1f47ad5148aaab4203c399af70eeq.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H1d6f8f8062254310adb51649c7c840343.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hf9a110beab184c5f879120f818a0066fc.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H523c54df69254e73b368efa812b6ad13w.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb66a8379abec4f0594f5e708faff82b8D.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H1c34f93dbd214abdbf8bf6a621ed13b5U.png?avif=close&webp=close"
+  ],
+  shortDescription: "Breathable tank top for active wear.",
+  fullDescription:
+    "CoreFit Tank features moisture-wicking fabric and a comfortable fit, ideal for workouts or warm-weather activities.",
+  rating: 4.6,
+  isNew: true,
+  price: 16,
+  onSale: false
+},
+{
+  id: "men-028",
+  name: "RidgeWalk Lightweight Parka",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H34db1947482d4631a6fee23906ca44056.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Ha65a3bc7bf5d40cead141a79272c9abd4.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H96d8e5a50c27450c9842c1a4000b1e94W.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Haf802dcb80f546daa4a7a29a8020b0e9w.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H172abefc044941dba3f7b68d98a37016e.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H64f3905c33f746558968acaf83e9913f8.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Water-resistant parka with adjustable hood.",
+  fullDescription:
+    "RidgeWalk Parka provides protection from light rain and wind, featuring multiple pockets and a comfortable fit for daily use.",
+  rating: 4.8,
+  isNew: true,
+  price: 58,
+  onSale: true,
+  salePrice: 49
+},
+{
+  id: "men-029",
+  name: "FlexCore Long Sleeve Tee",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hc3f9162071ec4eaaa203b0a0e46b41bfh.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hc85e667c1958449180f69a38ffba3baax.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H5f8f123bc7754a02bb0b1fab8dd91a4eH.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb37c28063a1d44bf8c9772f94af72304W.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb2ee6549ab8046a4888b01db803c917bu.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4c2d6a51132d4fb9a807f56cc8a10ba9M.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Soft long sleeve tee with regular fit.",
+  fullDescription:
+    "FlexCore Long Sleeve offers comfortable cotton fabric with a relaxed cut, perfect for layering or standalone wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 22,
+  onSale: true,
+  salePrice: 18
+},
+{
+  id: "men-030",
+  name: "TrekLine Cargo Shorts",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H3ee5c83c7c114af2a79c70cb21a89275e.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H496ace9ff4d34a8c8406e03e8747aa99n.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H02cf72e51fff411bac78ac782d28dbb0d.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha1e4c8e904e245b48ecc43f037b18d60F.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H129a6322b74c4ca48e66652b3027e693D.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hadeb4bc4ec474093a1a78951a0e4c216t.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Utility cargo shorts with reinforced pockets.",
+  fullDescription:
+    "TrekLine Cargo Shorts combine durability with comfort, featuring multiple storage pockets and a flexible waistband.",
+  rating: 4.6,
+  isNew: true,
+  price: 29,
+  onSale: false
+},
+{
+  id: "men-031",
+  name: "WarmShield Fleece Jacket",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H479fe4f36f2c485293f8d8fda1d0e0df4.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H083d4b0fc5034c0a8367bf4d7e76887fo.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hf713205a3d034806863aa4c8b5ab000eh.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H77ddbd9edae640559df39ff1e6597f55J.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/He86e77b108714b88817c26a25ad77f65h.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Cozy fleece jacket with full zip closure.",
+  fullDescription:
+    "WarmShield Fleece provides soft warmth and a comfortable fit, ideal for cool mornings or casual outdoor activities.",
+  rating: 4.8,
+  isNew: true,
+  price: 43,
+  onSale: true,
+  salePrice: 36
+},
+{
+  id: "men-032",
+  name: "BaseLine Crew Neck Sweater",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H5f5d5dd9b09c43059038e0f4eb117df7J.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H7a72326a7f3e4e5ab046d4468d1430a3x.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H103f04d4c1d846dba4a985a10257d83ej.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H737f5043b6bf4f1881729e6aa3dcfbc7E.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hf8c122a2851548aaa87798434a093e02D.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hfc9f3c3db7e54732a8c0af8cafd31234w.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic crew neck sweater with soft knit.",
+  fullDescription:
+    "BaseLine Sweater offers a timeless design with comfortable fabric, perfect for layering or standalone wear during cooler seasons.",
+  rating: 4.7,
+  isNew: true,
+  price: 36,
+  onSale: false
+},
+{
+  id: "men-033",
+  name: "SwiftMove Athletic Shorts",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H87c49fcd9d784ec282379968f2bee75aZ.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H2dfda96deffd4d40950e547aa2c11ea7j.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hbb213ef04f8c47b1a05b58cbb74ab5eeU.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H407016b6e45f4f549afe08fed3ca18ed6.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H27eba6f0428344f3823a20f3bc75252aa.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Lightweight athletic shorts for active wear.",
+  fullDescription:
+    "SwiftMove Shorts feature moisture-wicking material and an elastic waistband, ideal for workouts and sports activities.",
+  rating: 4.6,
+  isNew: true,
+  price: 21,
+  onSale: true,
+  salePrice: 17
+},
+{
+  id: "men-034",
+  name: "FieldWork Utility Shirt",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hcd052698313b4a66ae34f1f8d67aa7eeU.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hfa649255b52540939dd2df0af064d74au.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hcd863deaf5724812ac801dd434fadcf08.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H2dc1cd4f6bad401dbcb33f152cd108f71.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H83fb6e65826c437f99c40b8adb863163Q.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H50df4e40e64448f582337246630fd7129.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Durable utility shirt with chest pockets.",
+  fullDescription:
+    "FieldWork Shirt combines functionality with style, featuring reinforced seams and practical pockets for everyday tasks.",
+  rating: 4.5,
+  isNew: true,
+  price: 33,
+  onSale: false
+},
+{
+  id: "men-035",
+  name: "CozyWrap Sherpa Hoodie",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H63f2b30e44314796be8a593a737afc55K.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H07b5f42fefcf4529aa378baa840fdeda3.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hba6cbdb6c9a845ba8c42020ac444a7bb2.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H563dc47407e048109976a821277f9333T.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hde09839ab8624a95b4049480eec855c41.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4de7f1736de042909d176b355504e407f.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Warm sherpa-lined hoodie with drawstring hood.",
+  fullDescription:
+    "CozyWrap Sherpa Hoodie offers plush interior lining and a relaxed fit, perfect for cold weather comfort and casual wear.",
+  rating: 4.8,
+  isNew: true,
+  price: 47,
+  onSale: true,
+  salePrice: 39
+},
+{
+  id: "men-036",
+  name: "UrbanFit Slim Fit Jeans",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hee7a1d07d4434466ad2df057a650ab2cW.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hf50f891eb93b4101914eae31ce659b56w.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hfeb1145b56364ea9ba3ad79539701344q.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H1afb74841d7c478b959bc40d5fd52997M.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4ed7c219a08b4e14bc5501a995051e87o.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H2c5c1b7b12734fdbbc82cfa6887f7516U.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Slim fit jeans with stretch comfort.",
+  fullDescription:
+    "UrbanFit Jeans feature a modern slim silhouette with flexible denim fabric, offering both style and comfort for daily wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 42,
+  onSale: false
+},
+{
+  id: "men-037",
+  name: "BreezeFlow Linen Shirt",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H697fd6edf6d74b0d87b22f7e8e527e94A.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H20d79706192c4a2999db1b74998e4eddT.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H46fca016c7034747ac35f7c29dd57f8cc.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4da7e4ea67864c0aa70342f96044e98fo.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb43413e6c4e840138abecebbcf1c5a0b1.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha632189c4e3147cf8763b37a36ee123bs.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Breathable linen shirt for warm weather.",
+  fullDescription:
+    "BreezeFlow Linen Shirt provides excellent airflow and a relaxed fit, making it ideal for summer days and tropical climates.",
+  rating: 4.6,
+  isNew: true,
+  price: 28,
+  onSale: true,
+  salePrice: 23
+},
+{
+  id: "men-038",
+  name: "StealthLine Zip-Up Hoodie",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Aadf55b562b984083a4367875e912555fJ.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/A88a1a9f6a6134bbdbed3d0be23a44db7P.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Ac3783e0099bc4bb086081dcd5caa4b68L.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A18f7839d8fee4c5c935adf45ac5ff4ebn.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A495380643c4d41229bd04295694663c4N.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A823cc968b3dd4f52a93e57640dbe2d4bP.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Full zip hoodie with front pockets.",
+  fullDescription:
+    "StealthLine Zip-Up offers versatile styling with a front zipper, adjustable hood, and comfortable fabric for everyday wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 37,
+  onSale: true,
+  salePrice: 31
+},
+{
+  id: "men-039",
+  name: "ClassicFit Corduroy Pants",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H92e24016048f4c4798a65ccc50f3cf8en.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H898f017711834ab99721ccc590b59197s.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hd60d13fe187f43e3b053e242ad6dbb677.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H9f644ce445904006b8fef5ce25c0ea20e.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H07ebe9108da94e19aa1ba807fc87224c2.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha25f2e010f284e61be36820dfb9dfb267.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic corduroy pants with regular fit.",
+  fullDescription:
+    "ClassicFit Corduroy features textured fabric with a comfortable cut, perfect for casual autumn and winter styling.",
+  rating: 4.6,
+  isNew: true,
+  price: 35,
+  onSale: false
+},
+{
+  id: "men-040",
+  name: "ToughGear Work Jacket",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Aff03985e86f946bea18f996a49c6a4dfv.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Aaabcd7dc9dd540a9b127e24fc3b646958.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Accae7f020fc74d09a21b38fca0080ea63.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ae9f7c6be6ff94184b9c08c6e76d28462p.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/A202cd0f787b64d0da15742f6208993495.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ad3d03f7d9e3b4875acfc2aa582f878a2L.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Durable work jacket with multiple pockets.",
+  fullDescription:
+    "ToughGear Work Jacket offers reinforced construction, practical storage, and weather-resistant fabric for outdoor activities.",
+  rating: 4.7,
+  isNew: true,
+  price: 54,
+  onSale: true,
+  salePrice: 46
+},
+{
+  id: "men-041",
+  name: "ComfortZone Relaxed Fit Sweatpants",
+  category: "Men's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H495e08ae391c4eaab6b2216fdfd4f340q.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H46eaac21a6e749c1831446d2cd957c92x.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H2ed7560aa9e845aeb3b172d4d8177adfL.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb558a44d562d422a9b968d5f983086a4e.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hbc1fa627495a4d20a2423ef59350b87fd.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H77de61aa3678476c86a077af090c8626G.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Soft sweatpants with elastic waistband.",
+  fullDescription:
+    "ComfortZone Sweatpants provide maximum comfort with soft fabric and a relaxed fit, perfect for lounging or casual wear.",
+  rating: 4.8,
+  isNew: true,
+  price: 30,
+  onSale: false
+},
 
   
   
@@ -812,6 +1221,414 @@ export const productCatalog: Product[] = [
   price: 34,
   onSale: true,
   salePrice: 28
+},
+{
+  id: "women-017",
+  name: "Aurora Flowy Maxi Dress",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hd5ce87d24e424b809192978a4fa2494dO.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H653bd7e590314ebeb8b7ff6fe78623b9b.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hb09d71fd0a6a4e5b9cc7c4d7d614c4f8n.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/He520c3fdaba44b8b9fe454f0cf22a6cd0.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H682194c4618247ee828313e048a6925bK.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H0dc61d6e29834b09b8e608e81fccc93ee.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Elegant maxi dress with flowing silhouette.",
+  fullDescription:
+    "Aurora Maxi Dress features lightweight fabric with a comfortable fit, perfect for warm weather and casual occasions.",
+  rating: 4.7,
+  isNew: true,
+  price: 39,
+  onSale: true,
+  salePrice: 32
+},
+{
+  id: "women-018",
+  name: "Bella Knit Turtleneck Sweater",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H52c4e5f7d1b94e19a0127f961fe302e8y.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H9f2a1a64ca68477997e72a2dc842419c2.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H5592a342cedf4da69410517d76cd447ez.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H31aa94915ce04f03848632ace9524df3q.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hc7aa3ce7a6ee465ca3f88ad3ebb46de72.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/He4b2de200d6d4e95b92d822099c4dfd9E.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Cozy turtleneck sweater for cool weather.",
+  fullDescription:
+    "Bella Turtleneck offers soft knit fabric with a comfortable fit, ideal for layering during autumn and winter seasons.",
+  rating: 4.6,
+  isNew: true,
+  price: 33,
+  onSale: false
+},
+{
+  id: "women-019",
+  name: "Celeste Wide Leg Pants",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H2a66fef6dcac4d72b061dc858d0368d8Y.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Ha21fe6baf76b48188461071506567b38g.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H7f5acc2e14bb4ac882a2455e18df8942S.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H869e464fdd2d4a31816680670d7f96ffD.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha48c6f22ae7643139c59b4157894aafep.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/He718b10db1634c4d98b435d1679d973cN.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Comfortable wide leg pants with elastic waist.",
+  fullDescription:
+    "Celeste Wide Leg Pants feature flowing fabric and a relaxed fit, perfect for casual everyday wear and comfortable movement.",
+  rating: 4.7,
+  isNew: true,
+  price: 31,
+  onSale: true,
+  salePrice: 26
+},
+{
+  id: "women-020",
+  name: "Diana Long Sleeve Blouse",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hbc9345debda74558a7fcb82370d5362d3.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H1e715a9ccbd643b38c75c6b99cf597abR.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H2b75e5ebbca3434396bd5f528024b8af2.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H001cec17c99942f0ac11746ef0c4fd2bL.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H2ebef5bb1a48431db6b2ed06ca56a707j.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H5aa146dc21c64cb999d81f2222de2b0eM.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic long sleeve blouse with button front.",
+  fullDescription:
+    "Diana Blouse offers a versatile design with soft fabric, perfect for office wear or casual weekend outfits.",
+  rating: 4.6,
+  isNew: true,
+  price: 27,
+  onSale: false
+},
+{
+  id: "women-021",
+  name: "Elena Cropped Sweater",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H5ef8ebfbe7404e24b2bb3558f298bef6t.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hefda044e294540aabe97196a123d721f4.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H69d686823acf43e994a557e5d1faeb95r.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hd85748dd43e347d5ab952f4638dba951V.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H8d581688f51f400888545ea2e916dac8k.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H735d381e4c62403b911a80b872306877m.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Modern cropped sweater with soft knit.",
+  fullDescription:
+    "Elena Cropped Sweater features a contemporary silhouette with comfortable fabric, ideal for pairing with high-waisted bottoms.",
+  rating: 4.8,
+  isNew: true,
+  price: 30,
+  onSale: true,
+  salePrice: 25
+},
+{
+  id: "women-022",
+  name: "Fiona A-Line Skirt",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H8b38edd46c114e3c8d214f9a3202fe01T.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H8e9e76f1e60b4405a41b45da1e622b1eU.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H1eff16a17570458cbb90107eb19582afl.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb7ae3ac8405142dfaff0d54546ff51f5C.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb7ae3ac8405142dfaff0d54546ff51f5C.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic A-line skirt with comfortable fit.",
+  fullDescription:
+    "Fiona A-Line Skirt offers a flattering silhouette with soft fabric and an elastic waistband for everyday comfort.",
+  rating: 4.6,
+  isNew: true,
+  price: 26,
+  onSale: false
+},
+{
+  id: "women-023",
+  name: "Grace Denim Jacket",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H8e517cbc84c840d29a3b0f3c5e535129a.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hc6a025beb90847a681a349806153bd7fr.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H43076bca20f3465092a2371003ef4bd6z.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4cffbef117944588b998074254f867baF.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H19500dfcf16b4bb38c0bb5faffcae42bA.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hb19978871ba94127a92c802013a41a0b0.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Classic denim jacket with versatile styling.",
+  fullDescription:
+    "Grace Denim Jacket features soft-wash denim with a comfortable fit, perfect for layering over dresses or casual tops.",
+  rating: 4.7,
+  isNew: true,
+  price: 42,
+  onSale: true,
+  salePrice: 35
+},
+{
+  id: "women-024",
+  name: "Hannah Floral Print Blouse",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hefaa5c1665574525bcab6e70a320011dN.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H6e18ecf4383346ed881f3f3bf014ab24i.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H31ba86dbb9c14e3095e9263d8e0a7f97l.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha75fe8208a3644debdb3023c5dff21c5o.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H798199b597564c319c472baa391474f96.png?avif=close&webp=close"
+  ],
+  shortDescription: "Pretty floral blouse with relaxed sleeves.",
+  fullDescription:
+    "Hannah Floral Blouse features a feminine print with soft fabric, ideal for spring and summer casual wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 28,
+  onSale: false
+},
+{
+  id: "women-025",
+  name: "Iris Knit Joggers",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hb70ac4dfc5a349afb22212417c9661f2Q.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H405b46e68c28458881097d649e66300bY.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H582698d0018b426e813d6bb099a7314fh.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha057608b7cf84629b776134b16a58fcfY.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H7ab32d4854c9466a8df243b08473f535U.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H077e82cf71ea41be9a33eacb874f2b3fz.png?avif=close&webp=close"
+  ],
+  shortDescription: "Comfortable knit joggers for casual wear.",
+  fullDescription:
+    "Iris Joggers offer soft stretch fabric with an elastic waistband, perfect for lounging or running errands.",
+  rating: 4.6,
+  isNew: true,
+  price: 29,
+  onSale: true,
+  salePrice: 24
+},
+{
+  id: "women-026",
+  name: "Jade Sleeveless Blouse",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H3ff2234de30e478f9407bab8d0c6c0d30.jpeg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/He6eb920852b146baa890d61de10405aeP.jpeg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H34b0d4ce237a4d6a82014724600058e0V.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H970cd5d5e69d497c9697cb2309e9a39bQ.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hbfc2167c45bb42a7b53409274234e5dai.jpeg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H608f05aec8b3425bb09a6dbf262fa5ccc.jpeg?avif=close&webp=close"
+  ],
+  shortDescription: "Lightweight sleeveless blouse for warm weather.",
+  fullDescription:
+    "Jade Sleeveless Blouse provides a breezy fit with soft fabric, ideal for layering under cardigans or wearing alone in summer.",
+  rating: 4.5,
+  isNew: true,
+  price: 22,
+  onSale: false
+},
+{
+  id: "women-027",
+  name: "Kira Midi Wrap Skirt",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H8b58e5ca23ef4a33949d25791e656525f.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Ha909d7e88ecf483793c5a738eeb48924S.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/He55e406e09a74099bdd4296e4d22257fY.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H0578ae6ef89b4c269158cf376cda609dm.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H67c69dbd9ace4510b8cfc8ca32db206bh.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H6fbe1002b43847a1a32eb6a2ce5e87ffn.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Flattering wrap skirt with adjustable tie.",
+  fullDescription:
+    "Kira Wrap Skirt features a comfortable wrap design with soft fabric, perfect for creating a flattering silhouette.",
+  rating: 4.7,
+  isNew: true,
+  price: 27,
+  onSale: true,
+  salePrice: 22
+},
+{
+  id: "women-028",
+  name: "Luna Oversized Cardigan",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hf5dace225c6548608b27f69224e8905bY.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hc0f8a5f93138440a9ef615ccb3174ed7k.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hd476dc410d0049a7a47fc2d5dca7cd7fv.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hc33f285a774f46e2ace97c0a4510ae18G.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hc671592ff31e4c62aad06613043bdf1a2.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hc9631bc39caf485091802c50aac0a393g.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Cozy oversized cardigan for layering.",
+  fullDescription:
+    "Luna Cardigan offers a relaxed fit with soft knit fabric, perfect for cool weather and comfortable everyday styling.",
+  rating: 4.8,
+  isNew: true,
+  price: 37,
+  onSale: false
+},
+{
+  id: "women-029",
+  name: "Maya Striped T-Shirt",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H0389931fdcee45ca844d73dc1558f36a8.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H8416ec4a3ba1458e9ad9f0b8a747ba6at.png?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H687c5a73531a42938514afa7e9aa61d7t.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H267ca236c9ce401ca9347cd91b7eaa2co.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H10a84f59a8564effb4cec72efef1cc30d.png?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H9d54b3bf39f54a47a754abc9fc7d5f1cV.png?avif=close&webp=close"
+  ],
+  shortDescription: "Classic striped tee with comfortable fit.",
+  fullDescription:
+    "Maya Striped Tee features a timeless design with soft cotton fabric, perfect for casual everyday wear.",
+  rating: 4.6,
+  isNew: true,
+  price: 19,
+  onSale: true,
+  salePrice: 15
+},
+{
+  id: "women-030",
+  name: "Nora High-Waisted Jeans",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H3fac8259c2cd45be8da90752c08995c1d.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hd98cd55c0ec148ff9ffc2fed563c63a9r.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hd354a7380279471c870b80128f0cc339d.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hd988a7377fe14756bef95f4164693fd3k.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H3cc894a3f3eb46d9ab132633b1fca5682.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Haf2e69ebf06c40abbfbdd22a4769b2e1Z.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Comfortable high-waisted jeans with stretch.",
+  fullDescription:
+    "Nora Jeans offer a flattering high-rise fit with flexible denim fabric, perfect for everyday casual wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 38,
+  onSale: false
+},
+{
+  id: "women-031",
+  name: "Olivia Knit Vest",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H5363dc35f22d47ebbb4dad8096dcddbaP.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H22b491a1e3404b04a00dcb6a038222b1Z.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H204ea82579fe451cbc332aea539f83ccO.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H836c78cfa23346a39ca4131c65790cafa.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H2b8032a4626a41a48145312362de1af0p.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Hc97710057a6b4642972fc2308b5e5145d.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Versatile knit vest for layering.",
+  fullDescription:
+    "Olivia Vest features a sleeveless design with soft knit fabric, ideal for layering over blouses or tees.",
+  rating: 4.6,
+  isNew: true,
+  price: 25,
+  onSale: true,
+  salePrice: 20
+},
+{
+  id: "women-032",
+  name: "Penelope Casual Jumpsuit",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H9a09fe23961f405dae9e2afcf0f2b558Y.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H4ebaee8da406469097e77be30c0fb1e3t.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H9643b287f4cf4e47bccb48329b35635bq.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Had5846a4cf374c59ab4f70e067a6a6bcK.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H08549f487b5d453ca8c9129797c6debcY.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Easy-wear jumpsuit with relaxed fit.",
+  fullDescription:
+    "Penelope Jumpsuit offers a one-piece design with comfortable fabric, perfect for effortless casual styling.",
+  rating: 4.7,
+  isNew: true,
+  price: 41,
+  onSale: true,
+  salePrice: 34
+},
+{
+  id: "women-033",
+  name: "Quinn Flannel Shirt",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Hbc9345debda74558a7fcb82370d5362d3.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H1e715a9ccbd643b38c75c6b99cf597abR.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H2b75e5ebbca3434396bd5f528024b8af2.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H001cec17c99942f0ac11746ef0c4fd2bL.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H2ebef5bb1a48431db6b2ed06ca56a707j.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H5aa146dc21c64cb999d81f2222de2b0eM.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Cozy flannel shirt for casual wear.",
+  fullDescription:
+    "Quinn Flannel Shirt features soft brushed fabric with a relaxed fit, perfect for autumn and winter layering.",
+  rating: 4.6,
+  isNew: true,
+  price: 30,
+  onSale: false
+},
+{
+  id: "women-034",
+  name: "Ruby Sleeveless Maxi Dress",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H527c1eca80a1418ab14e51fe202f8991i.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Hb51f18eeb842407caab6f90746f1a60b7.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/Hb1dd820ebf184802b8d2b9c7bebbf51bF.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Haaf84e2af8834df9b9b9dc635387b600i.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H6a942a85b640476789d6e50613cd1184y.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H4ca2173307f04c37ba3a5e5e4f85bb483.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Elegant sleeveless maxi dress.",
+  fullDescription:
+    "Ruby Maxi Dress offers a flowing silhouette with lightweight fabric, perfect for warm weather and special occasions.",
+  rating: 4.8,
+  isNew: true,
+  price: 43,
+  onSale: true,
+  salePrice: 36
+},
+{
+  id: "women-035",
+  name: "Sage Linen Wide Leg Pants",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/H2a66fef6dcac4d72b061dc858d0368d8Y.jpg?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/Ha21fe6baf76b48188461071506567b38g.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H7f5acc2e14bb4ac882a2455e18df8942S.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H869e464fdd2d4a31816680670d7f96ffD.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/Ha48c6f22ae7643139c59b4157894aafep.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/He718b10db1634c4d98b435d1679d973cN.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Breathable linen pants for summer.",
+  fullDescription:
+    "Sage Linen Pants feature natural fabric with a wide leg cut, ideal for hot weather and comfortable movement.",
+  rating: 4.7,
+  isNew: true,
+  price: 32,
+  onSale: false
+},
+{
+  id: "women-036",
+  name: "Tessa Knit Pullover Hoodie",
+  category: "Women's Fashion",
+  image: "https://s.alicdn.com/@sc04/kf/Haae95e5cb50043d5884d0839a0b64a46d.png?avif=close&webp=close",
+  hoverImage: "https://s.alicdn.com/@sc04/kf/H9466d8cdd4ef404ababcbddf6d5bcdd3d.jpg?avif=close&webp=close",
+  imageGallery: [
+    "https://s.alicdn.com/@sc04/kf/H688c8c8adba54a9e96c842d611a09e2aE.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H64e52fdc8e654c5ba8ffec9da9bfb3ebZ.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H5b7866aba762401195042ea2b42918eaV.jpg?avif=close&webp=close",
+    "https://s.alicdn.com/@sc04/kf/H9aa8eefcae394cb3b97efc1599c2746dq.jpg?avif=close&webp=close"
+  ],
+  shortDescription: "Comfortable pullover hoodie with soft knit.",
+  fullDescription:
+    "Tessa Hoodie offers a relaxed fit with cozy fabric and an adjustable hood, perfect for casual everyday wear.",
+  rating: 4.7,
+  isNew: true,
+  price: 35,
+  onSale: true,
+  salePrice: 29
 },
 
 
